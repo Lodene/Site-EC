@@ -1,0 +1,20 @@
+#un, #deux, #trois, #quatre {
+	text-decoration: none;
+	color: white;
+}
+
+#menu {
+	font-family: Kreon, sans-serif;
+	line-height: 65px;
+	text-align: center;
+	left: 30%;
+	position: absolute;
+	width: auto;
+	height: 65px;
+	background-color: rgb(25,41,163);
+	padding: 0 40px 0 40px;
+	box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25), 0px 0px 6px 0px rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+	border-radius: 20em;
+
+}

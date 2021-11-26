@@ -1,0 +1,411 @@
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Unwritten
+Description: A two-column, fixed-width design with a bright color scheme.
+Version    : 1.0
+Released   : 20120710
+
+remodifier par Antoine ADJAMIDIS
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: #336784;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  color: #595350;
+  line-height: 2em;
+  background: #A7A4A1 url(../images/bg.jpg);
+  font-size: 12pt;
+  display: flex;
+  flex-direction: column;
+}
+
+body,input {
+  font-family: Kreon, sans-serif;
+}
+
+
+strong {
+  color: #000;
+}
+
+h1,h2,h3,h4 {
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h2,h3,h4 {
+  color: #000;
+  font-family: Satisfy, script;
+  margin-bottom: 1.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+img.alignleft {
+  margin: 5px 20px 20px 0;
+  float: left;
+}
+
+img.aligntop {
+  margin: 5px 0 20px 0;
+}
+
+
+
+ul {
+  margin-bottom: 1.75em;
+}
+
+ul h4 {
+  margin-bottom: 0.4em;
+}
+
+#page > #content > .post {
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  margin: 30px 0 40px 0;
+}
+
+#content {
+  float: left;
+  background: #FFF;
+  width: 60%;
+  padding: 40px;
+  height: 550px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+#footer {
+  text-align: center;
+  padding: 30px 0 90px 0;
+  color: #A59D93;
+  text-shadow: 1px 1px 0px rgba(255,255,255,0.75);
+}
+
+#footer a {
+  color: #A59D93;
+}
+
+#header {
+  padding: 0px 40px 80px 40px;
+  height: 140px;
+  position: relative;
+}
+
+
+#logo > a  {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  line-height: 125px;
+  margin-top: 20px;
+  height: 125px;
+  text-shadow: 1px 1px 0px rgba(255,255,255,0.9);
+
+}
+
+#logo a {
+  text-decoration: none;
+  color: #000;
+}
+
+#logo p {
+  font-family: Satisfy, script;
+  font-size: 3em;
+
+}
+
+.submenu {
+  display: none;
+  position: relative;
+  left: -180px;
+}
+
+.submenu > ul > li {
+  width: 500px;
+}
+
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+#quatre {
+  text-decoration: underline;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline;
+  padding: 0 0px 0 20px;
+}
+
+#menu ul li.first {
+  padding-left: 0;
+}
+
+#page {
+  width: auto;
+  padding: 0;
+  margin: 20px 0 20px 0;
+  position: relative;
+}
+
+
+nav li:hover .submenu {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+}
+
+
+
+.submenu li a {
+  width: 100px;
+  padding: 0px 40px 0px 40px;
+  height: auto;
+  font-size: 13px;
+  color: blue;
+  border: 2px solid blue;
+
+}
+
+
+#page .section-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#page .section-list li {
+  clear: both;
+  padding: 25px 0 25px 0;
+}
+
+#page ul {
+  list-style: none;
+}
+
+#page ul li {
+  border-top: solid 1px #B8B8B8;
+  padding: 15px 0 15px 0;
+}
+
+#page ul li.first {
+  padding-top: 0;
+  border-top: 0;
+}
+
+#col1 {
+  float: left;
+  width: 330px;
+  overflow: hidden;
+}
+
+#col2 {
+  width: 330px;
+  overflow: hidden;
+  margin: 0 0 0 365px;
+}
+
+#search {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#search input.form-submit {
+  margin-left: 1em;
+  background: #336784 url(../images/bg2.jpg);
+  font-family: Kreon, sans-serif;
+  border: 0;
+  color: #FFF;
+  padding: 7px;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25), 0px 0px 6px 0px rgba(255,255,255,0.9);
+}
+
+#search input.form-text {
+  padding: 8px;
+  border: 0;
+  background: rgba(62,59,57,0.5);
+  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5), 0px 0px 6px 0px rgba(255,255,255,0.9);
+  color: #fff;
+  width: 290px;
+}
+
+#sidebar {
+  margin: 0 0 0 800px;
+  background: rgba(62,59,57,0.7);
+  width: 300px;
+  padding: 20px 40px 40px 40px;
+  color: #CCCCCB;
+  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5), 0px 0px 6px 0px rgba(255,255,255,0.9);
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.4);
+}
+
+#sidebar a {
+  color: #FFF;
+}
+
+#sidebar h2, #sidebar h3, #sidebar h4 {
+  color: #FFF;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar ul li {
+  padding: 15px 0 15px 0;
+  border-top: solid 1px #8F8F8E;
+}
+
+#sidebar ul li.first {
+  border-top: 0;
+  padding-top: 0;
+}
+
+#splash {
+  padding: 40px;
+  position: relative;
+  background: #FFF;
+  margin: 20px 0 0 0;
+  height: 350px;
+  width: 1100px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+#wrapper {
+  margin: 20px auto 0 auto;
+  width: 1180px;
+}
+
+.violet {
+  color: purple;
+  margin-left: 20%;
+}
+
+.rouge {
+  color: red;
+  display: flex; 
+  justify-content: flex-end;
+}
+
+.vert {
+  color: green;
+}
+
+.bleu {
+  color: blue;
+  margin-left: 40%;
+}
+
+.post > p, .rouge > p {
+  font-size: 25px;
+}
+
+.titre {
+  font-size: 35px;
+}
+
+#titree {
+  text-align: center;
+}
+
+#content > .post {
+  font-family: Satisfy;
+}
+
+.dernier {  
+  display: flex;
+  text-align: center;
+  align-content: center;
+  padding-top: 20px;
+
+}
+
+.dernier > #interieur > p {
+  font-size: 35px;
+  
+}
+
+.mail {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#premier, #deuxieme {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#deuxieme {
+  /*padding-top: 30px;*/
+}
+
+.gauche {
+  margin-top: 10px;
+}
+.droite {
+  /*padding-top: 5px;
+  padding-left: 20px;*/
+  display: ;
+  margin: auto;
+}
+
+/*
+@media (max-width: 1000px){
+  main {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+*/
+
+
